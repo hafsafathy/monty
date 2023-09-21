@@ -6,6 +6,8 @@ In order to better understand it, consider the following scenario: Imagine you h
 You start by placing the red plate on the table. This is the first element of the stack. Then, you place the green plate on top of the red plate. This is the second element of the stack. Similarly, you place the blue plate followed by white and then finally orange. Note that the first plate you inserted into the stack was the red one. Now, you want to remove the red plate. But, before that, you need to remove the rest of the plates that are on top of the red one.
 
 From this discussion, it is pretty obvious that the first plate (first data element) to be inserted is removed at the last. And, the last plate to be inserted is removed at first, that is, it follows the “Last In First Out” rule. Also, we infer that placing and removing the plate is done from the top, that is, insertion and deletion are done from the top.
+
+
 2. What is a Queue in C?
 In contrast to a stack, a queue in C is nothing but a linear data structure that follows the FIFO rule (First In First Out). Insertion is done from the back (the rear end) and deletion is done from the front.
 
